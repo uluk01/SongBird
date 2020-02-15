@@ -1,0 +1,43 @@
+.bird-details {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #444;
+    width: 100%;
+}
+.instruction span {
+    display: block;
+}
+.bird-details .bird-image {
+    width: 200px;
+    height: 155px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+.card-body {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    min-height: 173px;
+}
+.card-body .list-group {
+    width: calc(100% - 240px);
+}
+.bird-details .list-group-item {
+    padding: .25rem;
+}
+.audio-player {
+    margin: 10px 40px 8px 0;
+    width: 100%;
+    min-width: 100px;
+}
+.audio-player-wrap .player-body {
+ display: block !important;
+ background-color: transparent !important;
+ box-shadow: none !important;
+ border-radius: 0 !important;
+ padding: 0 !important;
+}
+.audio-player-wrap .body-right {
+     height: 0 !important;
+}
