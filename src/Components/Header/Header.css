@@ -1,43 +1,43 @@
 .header {
-    margin-top: .5rem;
-    flex-direction: column;
+  margin-top: 0.5rem;
+  flex-direction: column;
 }
 .logo {
-    background-image: url('../../images/logo.4f82cd73.svg');
-    width: 200px;
-    height: 55px;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../../images/logo.4f82cd73.svg");
+  width: 200px;
+  height: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .top-panel {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  justify-content: space-between;
 }
-.score{
-    line-height: 55px;
+.score {
+  line-height: 55px;
 }
 .header ul.pagination {
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0;
-    margin-bottom: 25px;
-    border-radius: 5px;
-    overflow: hidden;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .header ul li {
-    flex: auto;
-    text-align: center;
+  flex: auto;
+  text-align: center;
 }
 .page-item .page-link {
-    background-color: #008966;
-    border-color: #007c5d;
-    color: white;
+  background-color: #008966;
+  border-color: #007c5d;
+  color: white;
 }
 .header ul li a {
-    cursor: pointer;
-    border-radius: 0!important;
+  cursor: pointer;
+  border-radius: 0 !important;
 }
 .active {
-    background-color: #3cd55d!important;
+  background-color: #3cd55d !important;
 }

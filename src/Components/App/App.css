@@ -1,50 +1,50 @@
 .btn {
+  width: 100%;
+  margin: 25px 15px;
+  background-color: #303030;
+  border: 1px solid #444;
+  color: #fff !important;
+  cursor: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+@media (max-width: 992px) and (min-width: 500px) {
+  .companyItem {
+    grid-template-columns: 2fr 4fr;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .workersItem {
+    padding: 80px;
+  }
+}
+@media (max-width: 500px) {
+  .random-bird {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .random-bird > div {
     width: 100%;
-    margin: 25px 15px;
-    background-color: #303030;
-    border: 1px solid #444;
-    color: #fff!important;
-    cursor: auto;
-    -webkit-transition: .3s;
-    transition: .3s;
-}
-@media (max-width: 992px) and (min-width: 500px){
-    .companyItem{
-        grid-template-columns: 2fr 4fr;
-    }
-    .grid{
-        grid-template-columns: 1fr;
-    }
-    .workersItem{
-        padding: 80px;
-    }
-}
-@media (max-width: 500px){
-    .random-bird {
-         display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-    }
-    .random-bird>div {
-         width:100%;
-    }
-    .random-bird .list-group {
-         margin-left: 0;
-    }
-    .list-group-item {
-        padding: 0;
-    }
-    .list-group-flush .list-group-item:first-child {
-        display: flex;
-        justify-content: center;
-        padding: 10px 0 0;
-    }
-    .card-body {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .card-body .list-group {
-        width: 100%;
-    }
+  }
+  .random-bird .list-group {
+    margin-left: 0;
+  }
+  .list-group-item {
+    padding: 0;
+  }
+  .list-group-flush .list-group-item:first-child {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0;
+  }
+  .card-body {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-body .list-group {
+    width: 100%;
+  }
 }

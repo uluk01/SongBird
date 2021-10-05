@@ -1,27 +1,27 @@
 .random-bird {
-    display: flex;
-    padding: 1rem;
-    margin-bottom: 25px;
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 25px;
 }
 .random-bird .bird-image {
-    width: 200px;
-    height: 155px;
-    border-radius: 10px;
-    margin: 0;
+  width: 200px;
+  height: 155px;
+  border-radius: 10px;
+  margin: 0;
 }
 
-.random-bird>div {
-    width: calc(100% - 240px);
-    margin: 0;
+.random-bird > div {
+  width: calc(100% - 240px);
+  margin: 0;
 }
 .random-bird .list-group {
-    margin-left: 40px;
+  margin-left: 40px;
 }
-.list-group-item h3{
-    display: inline-block;
+.list-group-item h3 {
+  display: inline-block;
 }
 .audio_player {
-     border: none !important;
-     background-color:transparent !important;
-     min-width: 0!important;
+  border: none !important;
+  background-color: transparent !important;
+  min-width: 0 !important;
 }
